@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn image and video editing with our comprehensive tutorials for Photoshop, Premiere Pro, After Effects, and more">
+    <title>Creative Studio - Image & Video Editing Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="url(#gradient)"/>
+                        <path d="M12 20L18 26L28 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#667eea"/>
+                                <stop offset="100%" stop-color="#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>Creative Studio</span>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#image-editing" class="nav-link">Image Editing</a></li>
+                    <li><a href="#video-editing" class="nav-link">Video Editing</a></li>
+                    <li><a href="#motion-graphics" class="nav-link">Motion Graphics</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#tips-tricks" class="nav-link">Tips & Tricks</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Master Image & Video Editing</h1>
+                <p class="hero-subtitle">Unlock your creative potential with comprehensive tutorials on industry-leading editing software</p>
+                <div class="hero-cta">
+                    <a href="#image-editing" class="btn btn-primary btn-large">Start Learning</a>
+                    <a href="#resources" class="btn btn-secondary btn-large">Browse Resources</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Tutorials</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Software Covered</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free Content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Editing Section -->
+    <section class="section" id="image-editing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Image Editing Tutorials</h2>
+                <p class="section-description">Master the art of photo manipulation and graphic design with these comprehensive guides</p>
+            </div>
+
+            <div class="tutorial-grid">
+                <!-- Adobe Photoshop -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&h=600&fit=crop" alt="Adobe Photoshop" loading="lazy">
+                        <div class="tutorial-badge">Popular</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Adobe Photoshop</h3>
+                        <p class="tutorial-description">Learn professional photo editing, retouching, and digital art creation</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Layer Masking</span>
+                            <span class="topic-tag">Color Grading</span>
+                            <span class="topic-tag">Compositing</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Getting Started with Photoshop Interface</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Advanced Selection Techniques</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Portrait Retouching Masterclass</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Creating Photo Manipulations</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+
+                <!-- GIMP -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop" alt="GIMP" loading="lazy">
+                        <div class="tutorial-badge badge-free">Free Software</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">GIMP</h3>
+                        <p class="tutorial-description">Powerful open-source image editing for photographers and designers</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Free Alternative</span>
+                            <span class="topic-tag">Photo Editing</span>
+                            <span class="topic-tag">Graphic Design</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>GIMP Installation and Setup</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Essential Tools and Shortcuts</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Working with Layers and Masks</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Advanced Photo Restoration</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+
+                <!-- Canva -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop" alt="Canva" loading="lazy">
+                        <div class="tutorial-badge badge-beginner">Beginner Friendly</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Canva</h3>
+                        <p class="tutorial-description">Create stunning designs quickly with this intuitive online design tool</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Social Media</span>
+                            <span class="topic-tag">Templates</span>
+                            <span class="topic-tag">Branding</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Canva Basics and Interface Tour</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Designing Social Media Graphics</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Creating Brand Assets and Templates</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Advanced Canva Pro Features</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Editing Section -->
+    <section class="section section-alt" id="video-editing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Video Editing Tutorials</h2>
+                <p class="section-description">Transform raw footage into compelling stories with professional video editing techniques</p>
+            </div>
+
+            <div class="tutorial-grid">
+                <!-- Adobe Premiere Pro -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop" alt="Adobe Premiere Pro" loading="lazy">
+                        <div class="tutorial-badge">Industry Standard</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Adobe Premiere Pro</h3>
+                        <p class="tutorial-description">Master the industry-standard video editing software used by professionals</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Timeline Editing</span>
+                            <span class="topic-tag">Color Correction</span>
+                            <span class="topic-tag">Effects</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Premiere Pro Workspace Essentials</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Multi-cam Editing Workflow</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Advanced Color Grading with Lumetri</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Audio Mixing and Sound Design</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+
+                <!-- DaVinci Resolve -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&h=600&fit=crop" alt="DaVinci Resolve" loading="lazy">
+                        <div class="tutorial-badge badge-free">Free Version</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">DaVinci Resolve</h3>
+                        <p class="tutorial-description">Professional color grading and video editing in one powerful package</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Color Grading</span>
+                            <span class="topic-tag">Fusion VFX</span>
+                            <span class="topic-tag">Audio Post</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Understanding Resolve's Page System</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Cut Page for Fast Editing</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Professional Color Grading Workflow</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Fusion VFX Basics</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+
+                <!-- Shotcut -->
+                <div class="tutorial-card">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=600&fit=crop" alt="Shotcut" loading="lazy">
+                        <div class="tutorial-badge badge-beginner">Beginner Friendly</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Shotcut</h3>
+                        <p class="tutorial-description">Free, open-source video editor perfect for beginners and hobbyists</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Open Source</span>
+                            <span class="topic-tag">Cross-Platform</span>
+                            <span class="topic-tag">Easy to Learn</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Shotcut Installation and Setup</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Basic Video Editing Techniques</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Applying Filters and Transitions</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Exporting Your Final Video</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motion Graphics Section -->
+    <section class="section" id="motion-graphics">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Motion Graphics Tutorials</h2>
+                <p class="section-description">Bring your designs to life with stunning animations and visual effects</p>
+            </div>
+
+            <div class="tutorial-grid tutorial-grid-2">
+                <!-- Adobe After Effects -->
+                <div class="tutorial-card tutorial-card-featured">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=600&fit=crop" alt="Adobe After Effects" loading="lazy">
+                        <div class="tutorial-badge">Professional</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Adobe After Effects</h3>
+                        <p class="tutorial-description">Create cinematic visual effects and motion graphics for any medium</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">Animation</span>
+                            <span class="topic-tag">Compositing</span>
+                            <span class="topic-tag">Visual Effects</span>
+                            <span class="topic-tag">Motion Design</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>After Effects Interface and Workflow</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Keyframe Animation Fundamentals</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Creating Text Animations</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Shape Layers and Motion Graphics</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Working with Expressions</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Advanced Compositing Techniques</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+
+                <!-- Blender -->
+                <div class="tutorial-card tutorial-card-featured">
+                    <div class="tutorial-image">
+                        <img src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?w=800&h=600&fit=crop" alt="Blender" loading="lazy">
+                        <div class="tutorial-badge badge-free">Free & Open Source</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3 class="tutorial-title">Blender</h3>
+                        <p class="tutorial-description">3D animation and motion graphics with the powerful open-source suite</p>
+                        <div class="tutorial-topics">
+                            <span class="topic-tag">3D Animation</span>
+                            <span class="topic-tag">Motion Tracking</span>
+                            <span class="topic-tag">Video Editing</span>
+                            <span class="topic-tag">Modeling</span>
+                        </div>
+                        <ul class="tutorial-lessons">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Blender Basics and Navigation</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Introduction to 3D Modeling</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Materials and Texturing</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Animation and Rigging Basics</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Motion Graphics with Geometry Nodes</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                <span>Rendering and Compositing</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Tutorials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="section section-alt" id="resources">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resources & Downloads</h2>
+                <p class="section-description">Essential software, plugins, and assets to enhance your editing workflow</p>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3 class="resource-category-title">
+                        <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        Software Downloads
+                    </h3>
+                    <div class="resource-list">
+                        <a href="https://www.adobe.com/products/photoshop.html" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Adobe Creative Cloud</h4>
+                                <p>Photoshop, Premiere Pro, After Effects</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.gimp.org/downloads/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>GIMP</h4>
+                                <p>Free & open-source image editor</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.canva.com/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Canva</h4>
+                                <p>Online design platform</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.blackmagicdesign.com/products/davinciresolve/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>DaVinci Resolve</h4>
+                                <p>Professional video editing & color grading</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://shotcut.org/download/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Shotcut</h4>
+                                <p>Free video editing software</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.blender.org/download/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Blender</h4>
+                                <p>Open-source 3D & motion graphics suite</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3 class="resource-category-title">
+                        <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6m8.66-15L18 7.34M8 12l-4.66 4.66M23 12h-6M7 12H1m15.66 8.66L13.34 18M7.34 13.34L1 19.66"></path>
+                        </svg>
+                        Plugins & Extensions
+                    </h3>
+                    <div class="resource-list">
+                        <a href="https://www.redgiant.com/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Red Giant Complete</h4>
+                                <p>Essential VFX plugins for After Effects & Premiere</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.videocopilot.net/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Video Copilot</h4>
+                                <p>Element 3D and motion design plugins</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.borisfx.com/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Boris FX</h4>
+                                <p>Sapphire, Mocha Pro, and Continuum plugins</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3 class="resource-category-title">
+                        <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        Stock Assets
+                    </h3>
+                    <div class="resource-list">
+                        <a href="https://unsplash.com/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Unsplash</h4>
+                                <p>Free high-quality stock photos</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.pexels.com/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Pexels</h4>
+                                <p>Free stock photos and videos</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://mixkit.co/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Mixkit</h4>
+                                <p>Free video clips, music & sound effects</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.freesound.org/" class="resource-item" target="_blank" rel="noopener">
+                            <div class="resource-info">
+                                <h4>Freesound</h4>
+                                <p>Collaborative sound library</p>
+                            </div>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips & Tricks Section -->
+    <section class="section" id="tips-tricks">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tips & Tricks</h2>
+                <p class="section-description">Boost your productivity with these essential shortcuts and workflow optimizations</p>
+            </div>
+
+            <div class="tips-container">
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Keyboard Shortcuts Mastery</h3>
+                        <div class="tip-content">
+                            <div class="shortcut-item">
+                                <span class="shortcut-key">Ctrl/Cmd + Z</span>
+                                <span class="shortcut-desc">Undo last action (universal)</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <span class="shortcut-key">Ctrl/Cmd + Shift + S</span>
+                                <span class="shortcut-desc">Save As</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <span class="shortcut-key">Spacebar</span>
+                                <span class="shortcut-desc">Play/Pause timeline (video editing)</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <span class="shortcut-key">J K L</span>
+                                <span class="shortcut-desc">Reverse, pause, play (Premiere/Resolve)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Performance Optimization</h3>
+                        <ul class="tip-list">
+                            <li>Use proxies for 4K+ footage in video editing</li>
+                            <li>Work in RGB mode unless CMYK is required</li>
+                            <li>Flatten layers before applying heavy effects</li>
+                            <li>Clear media cache regularly to free up space</li>
+                            <li>Use adjustment layers for non-destructive editing</li>
+                            <li>Pre-render complex After Effects compositions</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Workflow Best Practices</h3>
+                        <ul class="tip-list">
+                            <li>Organize projects with clear folder structures</li>
+                            <li>Use naming conventions: ProjectName_Version_Date</li>
+                            <li>Save multiple versions during major changes</li>
+                            <li>Color code clips and layers for easy identification</li>
+                            <li>Create custom workspace layouts for efficiency</li>
+                            <li>Use markers to note important points in timeline</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Color Grading Tips</h3>
+                        <ul class="tip-list">
+                            <li>Always work with log or RAW footage when possible</li>
+                            <li>Use scopes (waveform, vectorscope) not just your eyes</li>
+                            <li>Start with exposure and white balance corrections</li>
+                            <li>Apply LUTs as a starting point, then fine-tune</li>
+                            <li>Save custom presets for consistent looks</li>
+                            <li>Reference professional work for inspiration</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 20h9"></path>
+                                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Quick Photoshop Tips</h3>
+                        <ul class="tip-list">
+                            <li>Use layer masks instead of erasing permanently</li>
+                            <li>Smart Objects preserve original quality</li>
+                            <li>Content-Aware Fill for removing objects</li>
+                            <li>Adjustment layers for non-destructive color work</li>
+                            <li>Use Blend If for seamless compositing</li>
+                            <li>Learn the pen tool for precise selections</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                            </svg>
+                        </div>
+                        <h3 class="tip-title">Video Editing Essentials</h3>
+                        <ul class="tip-list">
+                            <li>Cut on action for smooth transitions</li>
+                            <li>Use J and L cuts for natural dialogue flow</li>
+                            <li>Match audio levels across all clips</li>
+                            <li>Add subtle motion to static shots (2.5D)</li>
+                            <li>Use speed ramps for dynamic pacing</li>
+                            <li>Export in multiple formats for different platforms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Have questions or suggestions? We'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Whether you're stuck on a tutorial, have feedback, or want to suggest new content, feel free to reach out. We typically respond within 24 hours.</p>
+                    
+                    <div class="contact-features">
+                        <div class="feature-item">
+                            <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <div>
+                                <h4>Quick Response</h4>
+                                <p>Get answers within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <div>
+                                <h4>Community Driven</h4>
+                                <p>Your feedback shapes our content</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <div>
+                                <h4>Always Available</h4>
+                                <p>Submit inquiries 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="tutorial-question">Tutorial Question</option>
+                            <option value="technical-support">Technical Support</option>
+                            <option value="content-suggestion">Content Suggestion</option>
+                            <option value="feedback">General Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us what's on your mind..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large btn-block">
+                        Send Message
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <rect width="40" height="40" rx="8" fill="url(#gradient-footer)"/>
+                            <path d="M12 20L18 26L28 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="gradient-footer" x1="0" y1="0" x2="40" y2="40">
+                                    <stop offset="0%" stop-color="#667eea"/>
+                                    <stop offset="100%" stop-color="#764ba2"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Creative Studio</span>
+                    </div>
+                    <p class="footer-description">Your ultimate destination for mastering image and video editing. Free tutorials, resources, and tips for creators of all levels.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#image-editing">Image Editing</a></li>
+                        <li><a href="#video-editing">Video Editing</a></li>
+                        <li><a href="#motion-graphics">Motion Graphics</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#tips-tricks">Tips & Tricks</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest tutorials and tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Creative Studio. All rights reserved. Made with passion for creators.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
